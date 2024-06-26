@@ -15,6 +15,7 @@ Feature: To create a new booking in restful-booker
       | John      | Doe      |       1200 | true        | 2021-05-05 | 2021-05-15 | Breakfast       |
       | Jane      | Doe      |       2400 | false       | 2021-06-01 | 2021-07-10 | Dinner          |
 
+
   @createBookingFromExcel
   Scenario Outline: To create new booking using Excel data
     Given user has access to endpoint "/booking"
